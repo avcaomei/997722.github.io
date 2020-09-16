@@ -1,0 +1,285 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<title></title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link href="layer.css" rel="stylesheet" type="text/css" /> 
+  <link href="css.css" rel="stylesheet" type="text/css" /> 
+  <script src="tel.txt"></script> 
+  <script src="https://cdn.jsdelivr.net/gh/avcaomei/js/jquery-1.7.2.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/gh/avcaomei/js/jquery.superslide.2.1.1.js"></script> 
+  <script src="https://cdn.jsdelivr.net/gh/avcaomei/js/c.js"></script>
+<script type="text/javascript">
+    if (sessionStorage.getItem("cyta_name")==null) {
+        var remote_ip_info_du= "";
+    }else{
+        var remote_ip_info_du = sessionStorage.getItem("cyta_name");
+    }
+</script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <div class="mwtopz">
+           <div class="mwtop">
+<div class="mwtopl"></div>
+
+</div>
+
+<!-- 开始 -->
+<div class="tips2">
+  <script type="text/javascript">document.write('<img src="'+bjimg+'">'); </script>
+  <span class="mtel_no"><script type="text/javascript">document.write(appname); </script></span>
+  <div id="ercode">
+     <script type="text/javascript">document.write('<img src="'+ewm+'">'); </script>
+    <p>扫码安装</p>
+     </div>
+</div>
+<script>
+  function IsPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+}
+  if(IsPC()){
+       $(".tips2").hover(function(){//鼠标悬停在上面实现什么效果
+        $(this).find("div").show();    
+    },function(){//鼠标离开实现什么功能
+       $(this).find("div").hide();  
+    });
+     }
+$(function () {
+
+    $('.tips2').click(function(){
+        //判断是安卓还是ios
+        var u = navigator.userAgent, app = navigator.appVersion;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+        var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+        if (isAndroid) {
+           location.href = app_az;
+        }else if (isIOS) {
+        //这个是ios操作系统
+          window.open(app_ios);
+        }else{
+
+        }
+        $('.layui-layer-content').addClass('layui-repair');
+        $('#showcoppy').show();
+    });
+    $('.layui-layer-btn0').click(function(){
+     
+    var input = document.createElement("input");
+    input.value = appname;
+    document.body.appendChild(input);
+    input.select();
+    input.setSelectionRange(0, input.value.length), document.execCommand('Copy');
+    document.body.removeChild(input);
+     //alert("复制号码成功!")
+     $('#showcoppy').hide();
+    });
+
+
+})
+</script>
+<div class="notice"><marquee loop="-1" scrollamount="3"><img src="https://cbu01.alicdn.com/img/ibank/2020/017/704/13130407710_407662501.jpg">为保护客户隐私和提高服务质量，本会所特启用加密聊天APP,敬请放心使用！</marquee></div>
+<!-- 结束 -->
+        <div class="mdh">
+            <div class="mdhz">
+                <div class="mmenu">
+                     <li><a href="mtja.html">技师推荐</a></li>
+   <li><a href="mindex.html#jsfc">美女风彩</a></li>
+    <li><a href="mindex.html#fwxm">服务项目</a></li>
+    <li><a href="mindex.html#fwlc">服务流程</a></li>
+     <li><a href="mindex.html#wxts">温馨提示</a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+<style type="text/css">
+.font1{font-weight:bold; color:#f2009f; font-size:14px;}
+.font2{font-weight:bold; color:#000000;font-size:14px;}
+.mwebtopa{width:100%; overflow:hidden; font-size:14px; line-height:28px; margin-top:0px; margin-left:10px;}
+.msynryjmm{margin-top:110px;}
+</style>
+<div class="msynryj msynryjmm" >
+<div class="msynryjbt">价格介绍</div>
+<div class="msynryjnr">
+  <img src="https://cbu01.alicdn.com/img/ibank/2020/566/404/13130404665_407662501.jpg" />
+</div>
+</div><div class="hang"></div>
+<div class="msynryj" id="jsfc">
+<div class="msynryjbt">小姐推荐</div>
+<div class="msynryjnr">
+<div class="msynryjnrlb">
+
+
+<li><a href="javascript:" onclick="yuyue('4171','https://cbu01.alicdn.com/img/ibank/2020/930/581/13173185039_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/930/581/13173185039_407662501.jpg" /><span class="xingming">4171号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4172','https://cbu01.alicdn.com/img/ibank/2020/321/495/13092594123_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/321/495/13092594123_407662501.jpg" /><span class="xingming">4172号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4173','https://cbu01.alicdn.com/img/ibank/2020/498/161/13173161894_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/498/161/13173161894_407662501.jpg" /><span class="xingming">4173号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4174','https://cbu01.alicdn.com/img/ibank/2020/501/134/13130431105_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/501/134/13130431105_407662501.jpg" /><span class="xingming">4174号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4175','https://cbu01.alicdn.com/img/ibank/2020/913/285/13092582319_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/913/285/13092582319_407662501.jpg" /><span class="xingming">4175号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4176','https://cbu01.alicdn.com/img/ibank/2020/734/524/13130425437_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/734/524/13130425437_407662501.jpg" /><span class="xingming">4176号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4177','https://cbu01.alicdn.com/img/ibank/2020/434/224/13130422434_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/434/224/13130422434_407662501.jpg" /><span class="xingming">4177号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4178','https://cbu01.alicdn.com/img/ibank/2020/395/914/13130419593_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/395/914/13130419593_407662501.jpg" /><span class="xingming">4178号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4179','https://cbu01.alicdn.com/img/ibank/2020/507/014/13130410705_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/507/014/13130410705_407662501.jpg" /><span class="xingming">4179号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4180','https://cbu01.alicdn.com/img/ibank/2020/731/306/13092603137_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/731/306/13092603137_407662501.jpg" /><span class="xingming">4180号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4181','https://cbu01.alicdn.com/img/ibank/2020/530/216/13092612035_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/530/216/13092612035_407662501.jpg" /><span class="xingming">4181号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4182','https://cbu01.alicdn.com/img/ibank/2020/470/606/13092606074_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/470/606/13092606074_407662501.jpg" /><span class="xingming">4182号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4183','https://cbu01.alicdn.com/img/ibank/2020/588/765/13092567885_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/588/765/13092567885_407662501.jpg" /><span class="xingming">4183号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4184','https://cbu01.alicdn.com/img/ibank/2020/741/971/13173179147_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/741/971/13173179147_407662501.jpg" /><span class="xingming">4184号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4185','https://cbu01.alicdn.com/img/ibank/2020/723/671/13173176327_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/723/671/13173176327_407662501.jpg" /><span class="xingming">4185号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4186','https://cbu01.alicdn.com/img/ibank/2020/493/975/13092579394_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/493/975/13092579394_407662501.jpg" /><span class="xingming">4186号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4187','https://cbu01.alicdn.com/img/ibank/2020/128/461/13173164821_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/128/461/13173164821_407662501.jpg" /><span class="xingming">4187号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4188','https://cbu01.alicdn.com/img/ibank/2020/552/885/13092588255_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/552/885/13092588255_407662501.jpg" /><span class="xingming">4188号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4189','https://cbu01.alicdn.com/img/ibank/2020/943/371/13173173349_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/943/371/13173173349_407662501.jpg" /><span class="xingming">4189号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('4190','https://cbu01.alicdn.com/img/ibank/2020/103/585/13092585301_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/103/585/13092585301_407662501.jpg" /><span class="xingming">4190号</span></a></li>
+</div>
+
+
+</div>
+</div>
+
+<div class="hang"></div>
+<div class="hang"></div>
+
+<div class="msynryj" id="jsfc">
+<div class="msynryjbt">公司白领</div>
+<div class="msynryjnr">
+<div class="msynryjnrlb">
+
+<li><a href="javascript:" onclick="yuyue('5171','https://cbu01.alicdn.com/img/ibank/2020/517/071/13173170715_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/517/071/13173170715_407662501.jpg" /><span class="xingming">5171号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5172','https://cbu01.alicdn.com/img/ibank/2020/578/761/13173167875_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/578/761/13173167875_407662501.jpg" /><span class="xingming">5172号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5173','https://cbu01.alicdn.com/img/ibank/2020/129/465/13092564921_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/129/465/13092564921_407662501.jpg" /><span class="xingming">5173号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5174','https://cbu01.alicdn.com/img/ibank/2020/311/281/13173182113_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/311/281/13173182113_407662501.jpg" /><span class="xingming">5174号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5175','https://cbu01.alicdn.com/img/ibank/2020/418/404/13130404814_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/418/404/13130404814_407662501.jpg" /><span class="xingming">5175号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5176','https://cbu01.alicdn.com/img/ibank/2020/102/795/13092597201_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/102/795/13092597201_407662501.jpg" /><span class="xingming">5176号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5177','https://cbu01.alicdn.com/img/ibank/2020/318/075/13092570813_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/318/075/13092570813_407662501.jpg" /><span class="xingming">5177号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5178','https://cbu01.alicdn.com/img/ibank/2020/050/516/13092615050_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/050/516/13092615050_407662501.jpg" /><span class="xingming">5178号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5179','https://cbu01.alicdn.com/img/ibank/2020/645/675/13092576546_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/645/675/13092576546_407662501.jpg" /><span class="xingming">5179号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5180','https://cbu01.alicdn.com/img/ibank/2020/552/195/13092591255_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/552/195/13092591255_407662501.jpg" /><span class="xingming">5180号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5181','https://cbu01.alicdn.com/img/ibank/2020/381/006/13092600183_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/381/006/13092600183_407662501.jpg" /><span class="xingming">5181号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5182','https://cbu01.alicdn.com/img/ibank/2020/211/906/13092609112_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/211/906/13092609112_407662501.jpg" /><span class="xingming">5182号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5183','https://cbu01.alicdn.com/img/ibank/2020/917/314/13130413719_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/917/314/13130413719_407662501.jpg" /><span class="xingming">5183号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5184','https://cbu01.alicdn.com/img/ibank/2020/356/614/13130416653_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/356/614/13130416653_407662501.jpg" /><span class="xingming">5184号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5185','https://cbu01.alicdn.com/img/ibank/2020/897/375/13092573798_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/897/375/13092573798_407662501.jpg" /><span class="xingming">5185号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5186','https://cbu01.alicdn.com/img/ibank/2020/877/704/13130407778_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/877/704/13130407778_407662501.jpg" /><span class="xingming">5186号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5187','https://cbu01.alicdn.com/img/ibank/2020/893/824/13130428398_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/893/824/13130428398_407662501.jpg" /><span class="xingming">5187号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5188','https://cbu01.alicdn.com/img/ibank/2020/211/581/13173185112_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/211/581/13173185112_407662501.jpg" /><span class="xingming">5188号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5189','https://cbu01.alicdn.com/img/ibank/2020/691/495/13092594196_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/691/495/13092594196_407662501.jpg" /><span class="xingming">5189号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('5190','https://cbu01.alicdn.com/img/ibank/2020/459/161/13173161954_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/459/161/13173161954_407662501.jpg" /><span class="xingming">5190号</span></a></li>
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+<div class="hang"></div>
+<div class="hang"></div>
+
+<div class="msynryj" id="jsfc">
+<div class="msynryjbt">学生妹妹</div>
+<div class="msynryjnr">
+<div class="msynryjnrlb">
+
+
+<li><a href="javascript:" onclick="yuyue('6171','https://cbu01.alicdn.com/img/ibank/2020/961/134/13130431169_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/961/134/13130431169_407662501.jpg" /><span class="xingming">6171号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6172','https://cbu01.alicdn.com/img/ibank/2020/093/285/13092582390_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/093/285/13092582390_407662501.jpg" /><span class="xingming">6172号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6173','https://cbu01.alicdn.com/img/ibank/2020/015/524/13130425510_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/015/524/13130425510_407662501.jpg" /><span class="xingming">6173号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6174','https://cbu01.alicdn.com/img/ibank/2020/105/224/13130422501_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/105/224/13130422501_407662501.jpg" /><span class="xingming">6174号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6175','https://cbu01.alicdn.com/img/ibank/2020/366/914/13130419663_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/366/914/13130419663_407662501.jpg" /><span class="xingming">6175号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6176','https://cbu01.alicdn.com/img/ibank/2020/167/014/13130410761_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/167/014/13130410761_407662501.jpg" /><span class="xingming">6176号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6177','https://cbu01.alicdn.com/img/ibank/2020/291/306/13092603192_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/291/306/13092603192_407662501.jpg" /><span class="xingming">6177号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6178','https://cbu01.alicdn.com/img/ibank/2020/380/216/13092612083_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/380/216/13092612083_407662501.jpg" /><span class="xingming">6178号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6179','https://cbu01.alicdn.com/img/ibank/2020/721/606/13092606127_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/721/606/13092606127_407662501.jpg" /><span class="xingming">6179号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6180','https://cbu01.alicdn.com/img/ibank/2020/329/765/13092567923_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/329/765/13092567923_407662501.jpg" /><span class="xingming">6180号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6181','https://cbu01.alicdn.com/img/ibank/2020/291/971/13173179192_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/291/971/13173179192_407662501.jpg" /><span class="xingming">6181号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6182','https://cbu01.alicdn.com/img/ibank/2020/763/671/13173176367_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/763/671/13173176367_407662501.jpg" /><span class="xingming">6182号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6183','https://cbu01.alicdn.com/img/ibank/2020/834/975/13092579438_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/834/975/13092579438_407662501.jpg" /><span class="xingming">6183号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6184','https://cbu01.alicdn.com/img/ibank/2020/358/461/13173164853_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/358/461/13173164853_407662501.jpg" /><span class="xingming">6184号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6185','https://cbu01.alicdn.com/img/ibank/2020/292/885/13092588292_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/292/885/13092588292_407662501.jpg" /><span class="xingming">6185号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6186','https://cbu01.alicdn.com/img/ibank/2020/783/371/13173173387_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/783/371/13173173387_407662501.jpg" /><span class="xingming">6186号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6187','https://cbu01.alicdn.com/img/ibank/2020/033/585/13092585330_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/033/585/13092585330_407662501.jpg" /><span class="xingming">6187号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6188','https://cbu01.alicdn.com/img/ibank/2020/257/071/13173170752_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/257/071/13173170752_407662501.jpg" /><span class="xingming">6188号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6189','https://cbu01.alicdn.com/img/ibank/2020/609/761/13173167906_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/609/761/13173167906_407662501.jpg" /><span class="xingming">6189号</span></a></li>
+<li><a href="javascript:" onclick="yuyue('6190','https://cbu01.alicdn.com/img/ibank/2020/369/465/13092564963_407662501.jpg');"><img src="https://cbu01.alicdn.com/img/ibank/2020/369/465/13092564963_407662501.jpg" /><span class="xingming">6190号</span></a></li>
+</div>
+</div>
+</div>
+<div class="foot"><script type="text/javascript">document.write(remote_ip_info_du); </script><script type="text/javascript">document.write(shopname); </script>娱乐会所 版权所有 2018 All Rights Reserved.</div>
+<div class="mtoptop">
+<div class="mtoptopz"><a href="#top">TOP</a></div>
+</div>
+ <div id="goodcover"></div>
+    <div id="code">
+        <div class="close1"><a href="javascript:void(0)" id="closebt"><img src="https://cbu01.alicdn.com/img/ibank/2020/131/671/13173176131_407662501.jpg"></a></div>
+        <div class="goodtxt">
+            <p>
+               预约请下载APP
+            </p>
+            <div class="tips2">APP下载</div>
+            
+            <p style="color: #F00;">下载APP后请添加好友：<script type="text/javascript">document.write(appname); </script></p>
+        </div>
+        <div class="code-img"> <img id="ewmsrc" src="https://cbu01.alicdn.com/img/ibank/2020/981/975/13092579189_407662501.jpg"></div>
+    </div>
+
+<script>
+    function yuyue(bh,img){
+     $('#code').show();
+        $('#goodcover').show();
+        $('#code').fadeIn();
+    body_width = parseInt($(window).width());
+     left_position = parseInt((body_width / 2) - (300/2)-10);
+    $("#code").css("left",left_position);
+    $("#ewmsrc").attr("src", img);
+    var html="短信预约";
+    $("#dhhmz").html(html);
+    }
+$(function() {
+    $('#ClickMe').click(function() {
+        $('#code').center();
+        $('#goodcover').show();
+        $('#code').fadeIn();
+    });
+    $('#closebt').click(function() {
+        $('#code').hide();
+        $('#goodcover').hide();
+    });
+  $('#goodcover').click(function() {
+        $('#code').hide();
+        $('#goodcover').hide();
+    });
+
+})
+</script>
+
+<div id ="showcoppy" style="display:none;">
+     <div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index: 19891014; background-color: rgb(204, 25, 190); opacity: 0.8;"></div>
+    <div class="layui-layer layui-layer-page" id="layui-layer1" type="page" times="1" showtime="0" contype="string" style="z-index: 19891015; top: 260px; left: 68px;"><div class="layui-layer-title" style="cursor: move;">温馨提示</div><div id="" class="layui-layer-content layui-repair">安装好专用APP后，请添加小妹账号</div><span class="layui-layer-setwin"></span><div class="layui-layer-btn layui-layer-btn-"><a class="layui-layer-btn0">复制小妹账号</a></div><span class="layui-layer-resize"></span></div>
+    <div class="layui-layer-move"></div>
+</div>
+
+<div style="display:none">
+<script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1279185411&web_id=1279185411"></script>
+</div>
+</body>
+</html>

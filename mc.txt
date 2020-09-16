@@ -1,0 +1,27 @@
+
+
+var items = [
+
+"567kk",
+
+"678kk",
+
+"789kk"
+
+
+
+];
+
+
+var shopname = "蓝色海岸娱乐会所";
+
+
+
+var app_az = "http://www.nvtaoke.cn/mchat.apk";
+
+var app_ios = "https://apps.apple.com/cn/app/mchat-messenger/id1340850682";
+
+var ewm = "/mchat-qrcode.png"; 
+
+var bjimg = "/mchat.png"; 
+var appname =  items[Math.floor(Math.random() * items.length)];

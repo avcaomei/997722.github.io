@@ -1,0 +1,27 @@
+
+
+var items = [
+
+
+"16687585791",
+
+"13095228707",
+
+"13094394730",
+
+
+];
+
+
+var shopname = "蓝色海岸娱乐会所";
+
+
+
+var app_az = "http://dx14.198174.com/sugramclb.apk";
+
+var app_ios = "https://apps.apple.com/us/app/sugram%E7%95%85%E8%81%8A%E7%89%88/id1518382989";
+
+var ewm = "/app.png"; 
+
+var bjimg = "/logo2.jpg"; 
+var appname =  items[Math.floor(Math.random() * items.length)];
